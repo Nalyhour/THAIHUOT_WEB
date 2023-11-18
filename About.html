@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>Thai Huot Trading Co., Ltd</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+
+    <!-- Favicons -->
+    <link href="assets/img/logo/logo.png" rel="icon">
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+    <section id="topbar" class="d-flex align-items-center">
+        <div class="running-letter-bar">
+            <div class="running-letter-content">
+                Welcome to Thai Huot Trading Co.,Ltd and Thai Huot Market. Please enjoy your surfs!.
+            </div>
+        </div>
+    </section>
+    <!-- ======= Header ======= -->
+    <header id="header" class="d-flex align-items-center">
+        </div>
+        <div class="container d-flex align-items-center">
+
+            <a class="logo me-auto"> <img src="assets/img/logo/Logohearder.png"></a>
+
+            <!-- Uncomment below if you prefer to use an image logo -->
+
+            <nav id="navbar" class="navbar">
+                <ul>
+                    <li><a class="nav-link scrollto " href="index.html">Home</a></li>
+                    <li><a class="nav-link scrollto active" href="#">About</a></li>
+                    <li><a class="nav-link scrollto" href="Markets.html">Markets</a></li>
+                    <li><a class="nav-link scrollto " href="Products.html">Products
+          </a></li>
+                    <li><a class="nav-link scrollto" href="Warehouse.html">Warehouse</a></li>
+                    <li><a class="nav-link scrollto" href="Contact.html">Contact</a></li>
+                    <li><a class="nav-link scrollto" href="Career.html">Careers</a></li>
+                    <li><a class="nav-link scrollto" href="Events.html">Events</a></li>
+                </ul>
+                <i class="bi bi-list mobile-nav-toggle"></i>
+            </nav>
+            <!-- .navbar -->
+
+        </div>
+    </header>
+    <!-- End Header -->
+
+
+    <!-- ======= About Us Section ======= -->
+    <section id="about" class="about">
+        <div class="container">
+
+            <div class="section-title">
+                <h2>About Us</h2>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-6 order-1 order-lg-2">
+                    <img src="assets/img/about.png" class="img-fluid" alt="">
+                </div>
+                <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content ">
+
+                    <h3>Thai Huot Drink Shop was founded by the Sea family in 1989.</h3>
+                    <p>
+                        In response to growing demand, the first Thai Huot Supermarket was established in 1994 to cater to both local and expatriate customers by offering a diverse range of international and domestic products. Under the guidance of Mr. Sea Sophal, Thai Huot
+                        has transformed from a
+                        <a id="small-shop-link" href="#"> <b>Small Shop</b></a>
+                    </p>
+                    <div id="popup"> <img src="assets/img/Branch/Small.jpg" alt="Popup Image">
+                        <button class="close-btn">X</button>
+                    </div>
+                    <p> Into a wholesale food and consumer product supplier for hotels and restaurants, as well as a trusted supermarket retailer with an unwavering reputation for quality and reliability.</p>
+                    <p>The sustained success of Thai Huot is due in no small part to its loyal customer base, extensive selection of products sourced from around the world, competitive pricing, exceptional service, and a conveniently situated location in
+                        the heart of Phnom Penh. The Sea family, along with the entire Thai Huot team, would like to express our deep appreciation and gratitude to all of our invaluable customers for their continued long-term support.</p>
+
+                    <style>
+                        #popup {
+                            display: none;
+                            position: fixed;
+                            top: 50%;
+                            left: 50%;
+                            transform: translate(-50%, -50%);
+                            width: 600px;
+                            max-width: 100%;
+                            max-height: 100%;
+                            background-color: #fff;
+                            padding: 20px;
+                            text-align: center;
+                            border-radius: 20px;
+                            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+                            z-index: 9999;
+                        }
+                        
+                        button:hover+#popup,
+                        #popup:hover {
+                            display: block;
+                            /* change display from none to block when hovered */
+                        }
+                        
+                        #popup img {
+                            max-width: 100%;
+                            max-height: 70%;
+                        }
+                        
+                        .close-btn {
+                            position: absolute;
+                            top: 5px;
+                            right: 5px;
+                            font-size: 10px;
+                            cursor: pointer;
+                            color: red;
+                        }
+                        
+                        #small-shop-link:hover #popup {
+                            display: block;
+                        }
+                    </style>
+
+                    <script>
+                        const popup = document.getElementById('popup');
+                        const closeBtn = document.querySelector('.close-btn');
+                        const showPopupLink = document.getElementById('small-shop-link');
+
+                        function showPopup() {
+                            popup.style.display = 'block';
+                        }
+
+                        function hidePopup() {
+                            popup.style.display = 'none';
+                        }
+
+                        showPopupLink.addEventListener('click', function(event) {
+                            event.preventDefault();
+                            showPopup();
+                        });
+
+                        closeBtn.addEventListener('click', hidePopup);
+                    </script>
+                </div>
+                </d>
+            </div>
+    </section>
+    <!-- End About Us Section -->
+
+    <!-- ======= Footer ======= -->
+    <footer id="footer">
+        <div class="container">
+            <img src="assets/img/logo/Logohearder.png">
+            <div class="social-links">
+                <a href="https://twitter.com/ThaiM29203"> <img src="assets/img/social media/twitter.png" style="width: 100px; height: 100px"> </a><span> &nbsp</span>
+                <a href="https://www.facebook.com/ThaiHuotMarket"> <img src="assets/img/social media/Facebook.png" style="width: 100px; height: 100px"></a><span> &nbsp </span>
+                <a href="https://www.instagram.com/thai_huot_supermarket/"> <img src="assets/img/social media/instagram.png" style="width: 100px; height: 100px"></a><span> &nbsp </span>
+                <a href="https://www.linkedin.com/in/thai-huot-market-a60350276/"> <img src="assets/img/social media/linkedinpng.png" style="width: 100px; height: 100px"></a>
+            </div>
+        </div>
+        </div>
+    </footer>
+    <!-- End Footer -->
+
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
