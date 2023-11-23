@@ -327,7 +327,6 @@ Hero Media Query
     /* Category Section */
     
     .section {
-        padding: 10rem 0 5rem 0;
         overflow: hidden;
     }
     
@@ -450,8 +449,8 @@ Hero Media Query
         display: block;
         margin-left: auto;
         margin-right: auto;
-        width: 150px !important;
-        height: 150px !important;
+        width: 170px !important;
+        height: 170px !important;
     }
     
     .product-thumb img {
@@ -474,10 +473,11 @@ Hero Media Query
     }
     
     .product-info a {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         display: block;
         margin-bottom: 1rem;
         transition: all 300ms ease;
+        text-transform: uppercase;
     }
     
     .product-info a:hover {
